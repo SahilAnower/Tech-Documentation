@@ -1,0 +1,64 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #d9ecf2;
+  font-family: 'Source Code Pro', monospace;
+}
+h2{
+  font-weight: 600;
+  color: #1aa6b7;
+  margin-top: 30px;
+}
+h1{
+  color: #132743;
+  font-weight: 700;
+}
+a,a:active,a:visited{
+  text-decoration: none;
+  color: #132743;
+}
+a:hover{
+  opacity: 0.5;
+}
+nav>ul{
+  width: 100%;
+  height: 100px;
+  overflow-y: auto;
+  border: 2px solid black;
+  padding-left: 0;
+}
+nav>li{
+  list-style: none;
+  margin-left: 0;
+  display: block;
+  margin-top: 20px;
+  padding: 5px;
+}
+nav{
+  text-align: center;
+}
+p{
+  margin-left: 10px;
+}
+code{
+  background-color: #a6a6a4;
+  padding: 20px;
+  margin: 40px 20px;
+  border-radius: 10px;
+  color: #132743;
+}
+@media (min-width: 768px) {
+  nav{
+    width: 25%;
+    float: left;
+    text-align: left;
+    position: fixed;
+  }
+  main{
+    width: 70%;
+    float: right;
+  }
+  nav>ul{
+    height: 690px;
+  }
+}
